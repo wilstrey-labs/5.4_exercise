@@ -1,25 +1,23 @@
-# Description
-[Summary of the changes and the related issue. Include relevant motivation and context.]
+---
+name: User Story
+about: Template for creating user stories
+title: "1-5 Word Description of Feature"
+labels: user story
+assignees: ''
 
-# Related Issue(s)
-Addresses # (tag depending issues)
+---
+# User Story
+As a **[role]**
+I want to **[functionality]**
+so that **[user value]**
 
-# Type of Change
-- [ ] New Feature
-- [ ] Bug Fix
-- [ ] Documentation update
-- [ ] Other (describe)
+# Summary
+[Write a brief description of the feature and how it fits in to the broader app]
 
-# Testing
-[Describe/cite the tests that you ran to verify your changes. Provide instructions to run the tests.]
+# Acceptance Criteria
+- [ ] Criterion 1
+- [ ] Criterion 2
+- [ ] Criterion 3
 
-# Pre-Submission Checklist
-- [ ] The code executes; my changes do not break the build
-- [ ] My changes do not generate new warnings
-- [ ] My code follows the style guidelines of this project
-- [ ] I have performed a self-review of my own code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] I have added automated tests demonstrating that the feature works or that fix is correct
-- [ ] New and existing unit tests pass locally with my changes
-- [ ] Any changes on which this PR depends have been merged and published in upstream modules
+# Additional Context
+[Add any other context or screenshots about the feature request here.]
