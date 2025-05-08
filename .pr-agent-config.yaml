@@ -1,0 +1,14 @@
+pr_agent:
+  include_review: true
+  include_tests: true
+  include_description: false
+  language: en
+
+review:
+  review_prompt:
+    system: |
+      You are an expert software engineer. Review the code with attention to structure, maintainability, and logic errors.
+    user: |
+      Please review this pull request and suggest improvements related to code quality and logic.
+
+  summarize_changes: true
